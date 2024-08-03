@@ -19,7 +19,7 @@ identifier = "posts"
 pre = ""
 # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
 post = ""
-name = "文章"
+name = "所有文章"
 url = "/posts/"
 # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
 title = ""
@@ -48,6 +48,14 @@ name = "系列"
 url = "/series/"
 title = ""
 weight = 4
+[[menu.main]]
+identifier = "memos"
+pre = ""
+post = ""
+name = "Memos"
+url = "https://memos.hsien.top"
+title = ""
+weight = 5
 
 [params]
 #  DoIt 主题版本
@@ -55,7 +63,7 @@ version = "0.4.0"
 # 网站名称
 title = "鱼非盛咸"
 # 网站描述
-description = "这是我的全新 Hugo 网站"
+description = "一万年太久, 只争朝夕"
 # 网站关键词
 keywords = ["Theme", "Hugo"]
 #  网站默认主题样式 ("light", "dark", "black", "auto")
@@ -353,7 +361,7 @@ warning = 180
 # 是否使用目录
 enable = true
 #  是否保持使用文章前面的静态目录
-keepStatic = true
+keepStatic = false
 # 是否使侧边目录自动折叠展开
 auto = true
 #  代码配置
@@ -727,10 +735,10 @@ endLevel = 6
 
 # 作者配置
 [author]
-name = "xxxx"
-email = ""
-link = ""
-avatar = ""
+name = "鱼非盛咸"
+email = "admin@hsien.top"
+link = "https://hsien.top"
+avatar = "https://img.hsien.top/mIdBh8q3iOT6qAZ39N9x.png?imageMogr2/format/webp"
 gravatarEmail = ""
 
 # 网站地图配置
