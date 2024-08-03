@@ -1,7 +1,7 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-date: {{ .Date }}
-lastmod: {{ .Date }}
+title: 'Hello World'
+date: 2024-08-04T01:31:00+08:00
+lastmod: 2024-08-04T01:31:00+08:00
 draft: true
 authors: [ethan]
 description:

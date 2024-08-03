@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Authors - 作者 - 鱼非盛咸</title>
+        <link>http://localhost:1313/authors/</link>
+        <description>Authors - 作者 - 鱼非盛咸</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 04 Aug 2024 01:31:00 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/authors/" rel="self" type="application/rss+xml" /><item>
+    <title>Ethan</title>
+    <link>http://localhost:1313/authors/ethan/</link>
+    <pubDate>Sun, 04 Aug 2024 01:31:00 &#43;0800</pubDate><author>
+        <name>xxxx</name>
+    </author><guid>http://localhost:1313/authors/ethan/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>
