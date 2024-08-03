@@ -1,20 +1,27 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+subtitle: ""
 date: {{ .Date }}
-lastmod: 
+lastmod: {{ .Date }}
 draft: true
-authors: [ethan]
-description: 
+authors: []
+description: ""
+
 tags: []
-categories: [Misc]
-series: 
-series_weight: 
-seriesNavigation: true
-featuredImage: 
-featuredImagePreview: 
+categories: []
+series: []
+series_weight: 0
+
 hiddenFromHomePage: false
 hiddenFromSearch: false
-twemoji: true
-lightgallery: false # 如果设为 true, 文章中的图片将可以按照画廊形式呈现
+
+featuredImage: ""
+featuredImagePreview: ""
+
+toc:
+  enable: true
+math:
+  enable: false
+lightgallery: false
+license: ""
 ---
-<!--more-->
