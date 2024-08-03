@@ -6,7 +6,7 @@ draft: false
 authors: [ethan]
 description: WezTerm 是一个强大的跨平台终端模拟器，由 @wez 编写，使用 Rust 实现
 tags: [wezterm]
-categories: [笔记]
+categories: [工具]
 series:
 series_weight:
 seriesNavigation: true

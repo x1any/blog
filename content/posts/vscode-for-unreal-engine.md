@@ -1,12 +1,12 @@
 ---
-title: '为 Unreal Eigine 配置 VSCode + Clangd 代码补全'
+title: '为 UE5 配置 VSCode + Clangd 代码补全'
 date: 2024-05-13T13:48:06+08:00
 lastmod: 
 draft: false
 authors: [ethan]
 description: 基本做到开箱即用
 tags: [UE5, vscode, clangd]
-categories: [笔记]
+categories: [工具]
 series: 
 series_weight: 
 seriesNavigation: true
