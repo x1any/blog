@@ -6,7 +6,7 @@ draft: false
 authors: [ethan]
 description: 基本做到开箱即用
 tags: [UE5, vscode, clangd]
-categories: [经验]
+categories: [笔记]
 series: 
 series_weight: 
 seriesNavigation: true

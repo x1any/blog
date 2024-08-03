@@ -6,7 +6,7 @@ draft: false
 authors: [ethan]
 description: Scoop 是一款适用于 Windows 平台的命令行软件（包）管理工具
 tags: [scoop]
-categories: [工具]
+categories: [笔记]
 series:
 series_weight:
 seriesNavigation: true
