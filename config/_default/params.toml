@@ -16,7 +16,7 @@ fingerprint = ""
 #  日期格式
 dateFormat = "2006-01-02"
 # 网站图片, 用于 Open Graph 和 Twitter Cards
-images = ["https://img.hsien.top/mIdBh8q3iOT6qAZ39N9x.png"]
+images = ["/images/logo.webp"]
 #  开启 PWA 支持
 enablePWA = false
 # [试验性功能] 缓存markdown中的图片链接到本地，详情请见：https://github.com/HEIGE-PCloud/DoIt/pull/860#issue-1574342372
@@ -37,7 +37,7 @@ title = "鱼非盛咸"
 # 是否隐藏网站图标资源链接
 noFavicon = false
 # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
-svgFavicon = "https://img.hsien.top/mIdBh8q3iOT6qAZ39N9x.png?imageMogr2/format/webp"
+svgFavicon = "/images/logo.webp"
 # Safari 图标颜色
 iconColor = "#5bbad5"
 # Windows v8-10磁贴颜色
@@ -157,7 +157,7 @@ gravatarEmail = ""
 # 主页显示头像的 URL
 # 将你的头像文件放置于 static 或者 assets 目录下
 # 文件路径是相对于 static 或者 assets 目录的
-avatarURL = "https://img.hsien.top/mIdBh8q3iOT6qAZ39N9x.png?imageMogr2/format/webp"
+avatarURL = "/images/logo.webp"
 # 头像的链接指向的 URL
 avatarLinkURL = ""
 #  主页显示的网站标题 (支持 HTML 格式)
@@ -569,7 +569,7 @@ images = []
 # 出版者信息
 [page.seo.publisher]
 name = "ethan"
-logoUrl = "https://img.hsien.top/mIdBh8q3iOT6qAZ39N9x.png?imageMogr2/format/webp"
+logoUrl = "/images/logo.webp"
 #  相关文章推荐配置
 [page.related]
 enable = true
