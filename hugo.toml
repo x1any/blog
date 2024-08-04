@@ -635,8 +635,8 @@ google = ""
 bing = ""
 yandex = ""
 pinterest = ""
-baidu = ""
-so = ""        # 360 search
+baidu = "codeva-qqTMQ5XAXF"
+so = ""                     # 360 search
 sogou = ""
 
 #  网站 SEO 配置
