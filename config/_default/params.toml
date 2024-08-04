@@ -601,7 +601,7 @@ yandex = ""
 pinterest = ""
 baidu = "codeva-qqTMQ5XAXF"
 so = "234309262a2f95501bf3b3c05cec22ba" # 360 search
-sogou = "6B8ptC87TP"
+sogou = ""
 
 #  网站 SEO 配置
 [seo]
