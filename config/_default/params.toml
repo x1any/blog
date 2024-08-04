@@ -480,9 +480,9 @@ dark = false
 enable = false
 #  Utterances 评论系统设置
 [page.comment.utterances]
-enable = false
+enable = true
 # owner/repo
-repo = ""
+repo = "ethanxyzhu/blog"
 issueTerm = "pathname"
 label = ""
 lightTheme = "github-light"
