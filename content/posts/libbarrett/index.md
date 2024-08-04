@@ -21,15 +21,9 @@ lightgallery: false # 如果设为 true, 文章中的图片将可以按照画廊
 
 ## 系统及软件版本
 
-我选择安装  libbarrett 3.0.x 版本，在 libbarret 的 [readme ](https://git.barrett.com/software/libbarrett)中写到：
+[libbarrett 3.0.x readme ](https://git.barrett.com/software/libbarrett)：
 
-> ` This version of Libbarrett works with a non-real-time kernel (a low-latency Ubuntu 20.04 kernel) and should only be used when a hard real-time guarantee is not critical for your application.`
-
-由于 libbarrett-3.0.x 用到了 Ubuntu 20.04 的 lowlatency 内核，系统选择 `Ubuntu 20.04`
-
-## 安装 Ubuntu 20.04
-
-此处省略
+> This version of Libbarrett works with a non-real-time kernel (**a low-latency Ubuntu 20.04 kernel**) and should only be used when a hard real-time guarantee is not critical for your application.
 
 ## 编译安装 libbarrett
 
@@ -61,7 +55,7 @@ uname -r
 sh ~/libbarrett/scripts/install_pcan.sh
 ```
 
-这里注意，我使用的是 PCAN-USB，不需要执行下面内容
+PCAN-USB 不需要执行下面内容
 
 > For PCAN-ISA only, manually configure the driver (not plug-and-play):
 >

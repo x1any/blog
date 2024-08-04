@@ -25,9 +25,7 @@ lightgallery: false # 如果设为 true, 文章中的图片将可以按照画廊
 > * [GitHub - boocs/unreal-clangd: VSCode extension for Unreal and clangd](https://github.com/boocs/unreal-clangd "GitHub - boocs/unreal-clangd: VSCode extension for Unreal and clangd")
 > * [.code-workspace template file for vscode clangd to work on unreal engine project · GitHub](https://gist.github.com/MrWen33/7b20ee520f28d73280c27309c1fcf23d ".code-workspace template file for vscode clangd to work on unreal engine project · GitHub")
 >
-> 原理：
->
-> UE 官方支持 Clang，可以使用 Clang 生成 `compile_commands.json` 文件，喂给 clangd
+原理：UE 官方支持 Clang，可以使用 Clang 生成 `compile_commands.json` 文件，喂给 clangd
 
 ## 使用到的 VS Code 插件
 

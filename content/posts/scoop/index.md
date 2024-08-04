@@ -187,20 +187,14 @@ scoop bucket add|list|known|rm [<args>]
 scoop bucket add extras
 ```
 
-一些 Bucket：
-
-* `extras`：Scoop 官方维护，地址 ：[lukesampson/scoop-extras](https://github.com/lukesampson/scoop-extras/tree/master/bucket)
-* dorado：添加了一些国内的 app，地址：[h404bi/dorado](https://github.com/h404bi/dorado)
-* ash258：地址：[Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)
-* v2rayA：透明代理，地址：[v2rayA/v2raya-scoop](https://github.com/v2rayA/v2raya-scoop)
-* nerd-fonts ：包含各种字体
+* extras：[lukesampson/scoop-extras](https://github.com/lukesampson/scoop-extras/tree/master/bucket)
+* dorado：[h404bi/dorado](https://github.com/h404bi/dorado)
+* ash258：[Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)
 
 ```powershell
 scoop bucket add extras
-scoop bucket add nerd-fonts
 scoop bucket add dorado https://github.com/h404bi/dorado
 scoop bucket add Ash258 https://github.com/Ash258/Scoop-Ash258
-scoop bucket add v2raya https://github.com/v2rayA/v2raya-scoop
 ```
 
 ## 导出/导入 JSON
