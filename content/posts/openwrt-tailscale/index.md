@@ -3,7 +3,7 @@ title: "OpenWrt 使用最新版 tailscale (ext4 持久化)"
 subtitle: ""
 date: 2024-08-04T21:15:47+08:00
 lastmod: 2024-08-04T21:15:47+08:00
-draft: true
+draft: false
 authors: [ethan]
 description: ""
 
