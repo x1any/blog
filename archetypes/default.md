@@ -4,7 +4,7 @@ subtitle: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-authors: []
+authors: [ethan]
 description: ""
 
 tags: []
