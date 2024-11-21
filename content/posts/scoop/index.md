@@ -187,14 +187,14 @@ scoop bucket add|list|known|rm [<args>]
 scoop bucket add extras
 ```
 
-* extras：[lukesampson/scoop-extras](https://github.com/lukesampson/scoop-extras/tree/master/bucket)
-* dorado：[h404bi/dorado](https://github.com/h404bi/dorado)
-* ash258：[Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)
+* extras：[ScoopInstaller/Extras](https://github.com/ScoopInstaller/Extras)
+* dorado：[chawyehsu/dorado](https://github.com/chawyehsu/dorado)
+* ash258：[Ash258/Shovel-Ash258](https://github.com/Ash258/Shovel-Ash258)
 
 ```powershell
 scoop bucket add extras
-scoop bucket add dorado https://github.com/h404bi/dorado
-scoop bucket add Ash258 https://github.com/Ash258/Scoop-Ash258
+scoop bucket add dorado https://github.com/chawyehsu/dorado
+scoop bucket add Ash258 https://github.com/Ash258/Shovel-Ash258
 ```
 
 ## 导出/导入 JSON
