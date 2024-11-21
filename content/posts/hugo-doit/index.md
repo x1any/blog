@@ -2,7 +2,7 @@
 title: "快速搭建一个 Hugo 站点 (DoIt 主题)"
 subtitle: ""
 date: 2024-08-04T21:44:50+08:00
-lastmod: 2024-08-04T21:44:50+08:00
+lastmod: 2024-11-21T23:00:00+08:00
 draft: false
 authors: [ethan]
 description: ""
@@ -34,7 +34,8 @@ hugo new site blog
 cd blog
 git init
 git submodule add https://github.com/HEIGE-PCloud/DoIt.git themes/DoIt
-git submodule update --remote --merge
+git submodule init
+git submodule update
 ```
 
 ## 基础配置
