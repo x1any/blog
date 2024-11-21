@@ -10,8 +10,8 @@ categories: [笔记]
 series: 
 series_weight: 
 seriesNavigation: true
-featuredImage: https://support.barrett.com/chrome/site/barrett-logo-support.jpg
-featuredImagePreview: https://support.barrett.com/chrome/site/barrett-logo-support.jpg
+featuredImage: ""
+featuredImagePreview: ""
 hiddenFromHomePage: false
 hiddenFromSearch: false
 twemoji: true
