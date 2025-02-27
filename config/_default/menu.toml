@@ -33,11 +33,3 @@ name = "系列"
 url = "/series/"
 title = ""
 weight = 4
-[[main]]
-identifier = "memos"
-pre = ""
-post = ""
-name = "Memos"
-url = "https://memos.hsien.top"
-title = ""
-weight = 5

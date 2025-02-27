@@ -10,8 +10,8 @@ categories: [工具]
 series: 
 series_weight: 
 seriesNavigation: true
-featuredImage: https://img.hsien.top/bO6tzMMuz5wzsmXJihOY.png?imageMogr2/format/webp
-featuredImagePreview: https://img.hsien.top/bO6tzMMuz5wzsmXJihOY.png?imageMogr2/format/webp
+featuredImage: https://img-hk.x1an.org/bO6tzMMuz5wzsmXJihOY.png?imageMogr2/format/webp
+featuredImagePreview: https://img-hk.x1an.org/bO6tzMMuz5wzsmXJihOY.png?imageMogr2/format/webp
 hiddenFromHomePage: false
 hiddenFromSearch: false
 twemoji: true
@@ -46,7 +46,7 @@ lightgallery: false # 如果设为 true, 文章中的图片将可以按照画廊
   * .NET 4.6.2 Targeting Pack
   * .NET 6.0
 
-LLVM 安装过程省略，注意 **UBT 只识别 clang 默认路径**，可以直接安装到默认路径或创建软链接（[Powershell 创建符号链接和硬链接](https://blog.hsien.top/p/powershell-%E5%88%9B%E5%BB%BA%E7%AC%A6%E5%8F%B7%E9%93%BE%E6%8E%A5%E5%92%8C%E7%A1%AC%E9%93%BE%E6%8E%A5/ "Powershell 创建符号链接和硬链接")）
+LLVM 安装过程省略，注意 **UBT 只识别 clang 默认路径**，可以直接安装到默认路径或创建软链接
 
 ## UBT 生成 compile_commands.json
 

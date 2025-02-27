@@ -10,8 +10,8 @@ categories: [工具]
 series:
 series_weight:
 seriesNavigation: true
-featuredImage: https://img.hsien.top/WNG1gT0qqxgntU92YNK2.png?imageMogr2/format/webp
-featuredImagePreview: https://img.hsien.top/WNG1gT0qqxgntU92YNK2.png?imageMogr2/format/webp
+featuredImage: https://img-hk.x1an.org/WNG1gT0qqxgntU92YNK2.png?imageMogr2/format/webp
+featuredImagePreview: https://img-hk.x1an.org/WNG1gT0qqxgntU92YNK2.png?imageMogr2/format/webp
 hiddenFromHomePage: false
 hiddenFromSearch: false
 twemoji: true
