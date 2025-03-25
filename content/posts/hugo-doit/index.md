@@ -35,7 +35,7 @@ cd blog
 git init
 git submodule add https://github.com/HEIGE-PCloud/DoIt.git themes/DoIt
 git submodule init
-git submodule update
+git submodule update --remote --merge
 ```
 
 ## 基础配置
@@ -109,9 +109,3 @@ hugo serve --disableFastRender -D
 ## 部署
 
 [Hugo · Cloudflare Pages docs](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/)
-
-环境变量：
-
-```
-HUGO_VERSION = 0.122.0
-```
