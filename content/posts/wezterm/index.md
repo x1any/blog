@@ -1,9 +1,9 @@
 ---
 title: '跨平台终端模拟器 Wezterm'
 date: 2024-03-02T00:00:00+08:00
-lastmod:
+lastmod: 2025-06-05T19:28:52+08:00
 draft: false
-authors: [ethan]
+authors: [x1any]
 description: WezTerm 是一个强大的跨平台终端模拟器，由 @wez 编写，使用 Rust 实现
 tags: [wezterm]
 categories: [工具]
@@ -31,10 +31,15 @@ lightgallery: false # 如果设为 true, 文章中的图片将可以按照画廊
 ```lua
 local wezterm = require 'wezterm';
 
-local default_prog = { 'ucrt64.exe', '-defterm', '-here', '-no-start', '-shell', 'zsh' }
+local default_prog = { 'pwsh.exe', '-NoLogo' }
 
 local launch_menu = {}
 if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
+    table.insert(launch_menu, {
+        label = 'PowerShell',
+        args = { 'pwsh.exe', '-NoLogo' },
+    })
+
     table.insert(launch_menu, {
         label = 'Windows PowerShell',
         args = { 'powershell.exe', '-NoLogo' },
@@ -71,19 +76,25 @@ if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
     end
 end
 
-local materia = wezterm.color.get_builtin_schemes()['Material Darker (base16)']
-materia.scrollbar_thumb = '#CFCFCF'
+local materia = wezterm.color.get_builtin_schemes()['MaterialDesignColors']
+materia.scrollbar_thumb = '#888888'
+
+local window_decorations = "INTEGRATED_BUTTONS|RESIZE"
+
+local font = wezterm.font_with_fallback({ "Maple Mono NF CN" })
 
 local act = wezterm.action;
 local key_bindings = {
     -- F11 切换全屏
     { key = 'F11',       mods = 'NONE',       action = act.ToggleFullScreen },
-    -- 显示启动菜单
+    -- Alt+L 显示启动菜单
     { key = 'l',         mods = 'ALT',        action = act.ShowLauncher },
     -- Ctrl+Shift+N 新窗口
     { key = 'N',         mods = 'SHIFT|CTRL', action = act.SpawnWindow },
-    -- Ctrl+Shift+Tab 遍历 tab
+    -- Ctrl+Tab 遍历 tab
     { key = "Tab",       mods = "SHIFT|CTRL", action = act.ActivateTabRelative(1) },
+    -- Ctrl+Shift+Tab 反向遍历 tab
+    { key = "Tab",       mods = "SHIFT|CTRL", action = act.ActivateTabRelative(-1) },
     -- Ctrl+Shift+W 关闭 panel 且不进行确认
     { key = 'W',         mods = 'SHIFT|CTRL', action = act.CloseCurrentPane { confirm = false } },
     -- Ctrl+Shift+PageUp 向上滚动一页
@@ -123,31 +134,31 @@ local mouse_bindings = {
     },
 }
 
-local config = {}
+local config
 if wezterm.config_builder then
     config = wezterm.config_builder()
+else
+    config = {}
 end
-config = {
-    exit_behavior = "Close",
-    initial_cols = 120,
-    initial_rows = 36,
-    font_size = 12,
-    tab_max_width = 32,
-    enable_scroll_bar = true,
-    enable_tab_bar = true,
-    enable_wayland = false,
-    colors = materia,
-    window_decorations = "INTEGRATED_BUTTONS|RESIZE",
-    window_background_opacity = 0.95,
-    window_padding = { left = 10, right = 10, top = 10, bottom = 10 },
-    pane_focus_follows_mouse = true,
-    font = wezterm.font_with_fallback({ "Fira Code Retina", "Noto Sans SC", "MesloLGS NF" }),
-    default_prog = default_prog,
-    launch_menu = launch_menu,
-    keys = key_bindings,
-    mouse_bindings = mouse_bindings,
-    disable_default_key_bindings = false,
-}
+
+config.exit_behavior = "Close"
+config.initial_cols = 120
+config.initial_rows = 36
+config.font_size = 12
+config.font_shaper = "Harfbuzz"
+config.harfbuzz_features = { 'calt=1', 'clig=1', 'liga=0' }
+config.tab_max_width = 24
+config.enable_wayland = false
+config.enable_tab_bar = true
+config.enable_scroll_bar = true
+config.window_background_opacity = 1.0
+config.window_decorations = window_decorations
+config.colors = materia
+config.font = font
+config.default_prog = default_prog
+config.launch_menu = launch_menu
+config.keys = key_bindings
+config.mouse_bindings = mouse_bindings
 
 return config
 ```

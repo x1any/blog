@@ -3,7 +3,7 @@ title: 'Ubuntu 使用 CMake 编译安装 Libhv'
 date: 2024-03-07T16:46:11+08:00
 lastmod: 
 draft: false
-authors: [ethan]
+authors: [x1any]
 description: 
 tags: [libhv]
 categories: [笔记]

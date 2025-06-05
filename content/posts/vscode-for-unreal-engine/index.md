@@ -3,7 +3,7 @@ title: '为 UE5 配置 VSCode + Clangd 代码补全'
 date: 2024-05-13T13:48:06+08:00
 lastmod: 
 draft: false
-authors: [ethan]
+authors: [x1any]
 description: 基本做到开箱即用
 tags: [UE5, vscode, clangd]
 categories: [工具]

@@ -4,7 +4,7 @@ subtitle: ""
 date: 2025-03-25T13:37:01+08:00
 lastmod: 2025-03-25T13:37:01+08:00
 draft: false
-authors: [ethan]
+authors: [x1any]
 description: ""
 
 tags: [ubuntu, nvidia, PREEMPT_RT]

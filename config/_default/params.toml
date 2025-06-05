@@ -31,9 +31,9 @@ srcsetLargeResizeMethod = "2000x webp Lanczos q75"
 license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
 [author]
-name = "ethan"
-link = "https://hsien.top"
-email = "admin@hsien.top"
+name = "x1any"
+link = "https://blog.x1an.org"
+email = "x1any@outlook.com"
 avatar = "/images/logo.webp"
 gravatarEmail = ""
 
@@ -188,7 +188,7 @@ defaultHiddenFromHomePage = false
 
 # 作者的社交信息设置
 [social]
-GitHub = "ethanxyzhu"
+GitHub = "x1any"
 Linkedin = ""
 Twitter = ""
 Instagram = ""
@@ -257,7 +257,7 @@ BuyMeACoffee = ""
 Linktree = ""
 QQ = ""
 QQGroup = ""
-Email = "ethan@x1an.org"
+Email = "x1any@duck.com"
 RSS = true
 
 #  文章页面配置
@@ -403,7 +403,7 @@ Weibo = true
 # https://www.free-api.com/doc/531
 # http://www.alapi.cn/api/view/72
 # OR self-hosted: https://github.com/yhf7952/QrCodeApi
-Weixin = "https://tenapi.cn/qr/?txt="
+Weixin = ""
 Whatsapp = false
 Xing = false
 Mastodon = true
@@ -488,7 +488,7 @@ enable = false
 [page.comment.utterances]
 enable = true
 # owner/repo
-repo = "ethanxyzhu/blog"
+repo = "x1any/blog"
 issueTerm = "pathname"
 label = ""
 lightTheme = "github-light"
@@ -574,7 +574,7 @@ commentCount = true
 images = []
 # 出版者信息
 [page.seo.publisher]
-name = "ethan"
+name = "x1any"
 logoUrl = "/images/logo.webp"
 #  相关文章推荐配置
 [page.related]

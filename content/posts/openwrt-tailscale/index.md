@@ -4,7 +4,7 @@ subtitle: ""
 date: 2024-08-04T21:15:47+08:00
 lastmod: 2024-08-04T21:15:47+08:00
 draft: false
-authors: [ethan]
+authors: [x1any]
 description: ""
 
 tags: [openwrt, tailscale]

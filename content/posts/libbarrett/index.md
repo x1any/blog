@@ -3,7 +3,7 @@ title: 'Ubuntu 编译安装 Libbarrett'
 date: 2024-03-07T21:17:04+08:00
 lastmod: 
 draft: false
-authors: [ethan]
+authors: [x1any]
 description: 
 tags: [libbarrett]
 categories: [笔记]

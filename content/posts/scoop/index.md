@@ -3,7 +3,7 @@ title: 'Windows 系统下的包管理器 Scoop'
 date: 2024-03-03T00:00:00+08:00
 lastmod:
 draft: false
-authors: [ethan]
+authors: [x1any]
 description: Scoop 是一款适用于 Windows 平台的命令行软件（包）管理工具
 tags: [scoop]
 categories: [工具]
