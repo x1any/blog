@@ -46,9 +46,9 @@ options nouveau modeset=0" | sudo tee /etc/modprobe.d/blacklist-nouveau.conf
 
 sudo update-initramfs -u
 sudo systemctl set-default multi-user.target
-sudo reboot
+sudo systemctl isolate default.target
 
 sudo IGNORE_PREEMPT_RT_PRESENCE=1 bash nvidia-535.run
 sudo systemctl set-default graphical.target
-sudo reboot
+sudo systemctl isolate default.target
 ```
